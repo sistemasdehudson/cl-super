@@ -1,8 +1,8 @@
 {
-    'name': 'maitehnadrogue',
+    'name': 'super',
     'version': '13.0.0.0',
     'category': 'Tools',
-    'summary': "Proyecto maitehnadrogue",
+    'summary': "Proyecto super",
     'author': 'Sdeh',
     'depends': [
         'base',
@@ -17,7 +17,7 @@
     'limit_memory_hard': '760000000',
     'limit_time_cpu': '60',
     'limit_time_real': '120',
-    'dbfilter': 'adrogue_18-11-2020',
+    'dbfilter': 'erp.confiteriasuper.com.ar',
 
     # manifest version, if omitted it is backward compatible
     'env-ver': '2',
@@ -30,7 +30,7 @@
 
     # list of url repos to install in the form 'repo-url directory'
     'git-repos': [
-        'https://github.com/regaby/cl-obladi.git',
+        'https://github.com/sistemasdehudson/cl-super',
         'https://github.com/regaby/odoo-custom.git',
         'https://github.com/regaby/sdeh-pos.git',
         'https://github.com/jobiols/odoo-addons.git',
@@ -56,8 +56,10 @@
         'https://github.com/CybroOdoo/CybroAddons.git',
         'https://github.com/itpp-labs/pos-addons.git',
         'https://github.com/odoomates/odooapps.git',
-         ##
+        ##
         'https://github.com/sistemasdehudson/sdehposaddons.git',
+        ##
+        'https://github.com/jromeroarg/itpp-labs_pos-addons/tree/13.0/pos_multi_session',
     ],
 
     'docker-images': [
