@@ -54,12 +54,12 @@
         ##
         'https://github.com/ctmil/contract.git',
         'https://github.com/CybroOdoo/CybroAddons.git',
-        'https://github.com/itpp-labs/pos-addons.git',
+        ## 'https://github.com/itpp-labs/pos-addons.git',
         'https://github.com/odoomates/odooapps.git',
         ##
         'https://github.com/sistemasdehudson/sdehposaddons.git',
         ##
-        'https://github.com/jromeroarg/itpp-labs_pos-addons/tree/13.0/pos_multi_session',
+        'https://github.com/jromeroarg/itpp-labs_pos-addons',
     ],
 
     'docker-images': [
